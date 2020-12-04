@@ -18,7 +18,7 @@ public class Controller {
     void visURL(ActionEvent event) {
         System.out.println("Viser hjemmesiden");
         WebEngine engine = w1WebView.getEngine();
-        engine.load("https://www.youtube.com/watch?v=gAua3u3DXfU&app=desktop");
+        engine.load("https://www.youtube.com/embed/gAua3u3DXfU?fs=0&rel=0&showinfo=0&autoplay=1");
     }
 
 }

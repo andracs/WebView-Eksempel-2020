@@ -6,18 +6,18 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.web.WebView?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
   <tabs>
-    <Tab text="Untitled Tab 1">
+    <Tab text="Video fra Youtube">
       <content>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="557.0" prefWidth="803.0">
                <children>
-                  <WebView fx:id="w1WebView" layoutX="133.0" layoutY="23.0" prefHeight="320.0" prefWidth="451.0" />
-                  <Button fx:id="b1" layoutX="24.0" layoutY="316.0" mnemonicParsing="false" onAction="#visURL" text="Indlæs web" />
+                  <WebView fx:id="w1WebView" layoutX="133.0" layoutY="23.0" prefHeight="735.0" prefWidth="851.0" />
+                  <Button fx:id="b1" layoutX="14.0" layoutY="23.0" mnemonicParsing="false" onAction="#visURL" text="Indlæs Youtube" />
                </children></AnchorPane>
       </content>
     </Tab>
-    <Tab text="Untitled Tab 2">
+    <Tab text="Noget andet funky">
       <content>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
       </content>
